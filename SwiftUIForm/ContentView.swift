@@ -16,7 +16,6 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            
             Form {
                 Section(header: Text("Personal Infromation")) {
                     TextField("First Name", text: $fristName)
